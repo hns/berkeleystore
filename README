@@ -25,11 +25,11 @@ Functionality
 Initializing the store:
 
     include('helma/storage/berkeleystore');
-    init(dbpath);
+    store = new Store(dbpath);
 
 Creating a new Storable class:
 
-    Book = Storable('book');
+    Book = store.defineClass('book');
 
 Creating and saving a new Storable instance:
 
@@ -50,7 +50,7 @@ Deleting an object from the db:
 
 Running a query on the database:
 
-    Book.query().eq('prop', value).select();
+    Book.query().equals('prop', value).select();
 
 The Query.select() method takes an optional argument to retrieve
 just a property rather than the whole object, e.g. '_id' or 'title'.
