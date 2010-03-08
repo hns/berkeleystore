@@ -1,4 +1,4 @@
-This is a backend for the Helma NG Storable interface based on the Oracle
+This is a backend for the RingoJS Storable interface based on the Oracle
 (formerly Sleepycat) Berkeley DB.
 
     http://www.oracle.com/database/berkeley-db/db/index.html
@@ -24,7 +24,7 @@ Functionality
 
 Initializing the store:
 
-    include('helma/storage/berkeleystore');
+    include('ringo/storage/berkeleystore');
     store = new Store(dbpath);
 
 Creating a new Storable class:
