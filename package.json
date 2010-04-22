@@ -5,6 +5,6 @@
     "keywords": ["db", "database", "berkeley"],
     "author": "Hannes Wallnöfer (http://henso.com/) <hannes@helma.at>",
     "jars": [
-        "jars/libdb4.7-java-4.7.25.jar"
+        "jars/je-4.0.92.jar"
     ]
 }
