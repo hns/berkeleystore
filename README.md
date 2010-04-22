@@ -1,15 +1,16 @@
 This is a backend for the RingoJS Storable interface based on the Oracle
-(formerly Sleepycat) Berkeley DB.
+(formerly Sleepycat) Berkeley DB Java Edition.
 
-    http://www.oracle.com/database/berkeley-db/db/index.html
+    http://www.oracle.com/database/berkeley-db/je/index.html
 
 Requirements
 ============
 
-It is written against version 4.6 of Berkeley DB which is the default version
-installed in current Debian and Ubuntu releases. Berkeleystore uses the native
-version of Berkeley DB, but it probably could be rewritten relatively easily
-for use with the pure Java Berkeley DB JE as both share most of their API.
+It is written against version 4.6 of Berkeley DB Java Edition.
+
+There is also a version of Berkeleystore that uses the native version of
+Berkeley DB in the native-edition branch at
+<http://github.com/hns/berkeleystore/tree/native-edition>
 
 Features
 ========
