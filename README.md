@@ -1,7 +1,7 @@
 This is a backend for the RingoJS Storable interface based on the Oracle
-(formerly Sleepycat) Berkeley DB Java Edition.
+(formerly Sleepycat) [Berkeley DB Java Edition][1].
 
-    http://www.oracle.com/database/berkeley-db/je/index.html
+  [1]: http://www.oracle.com/database/berkeley-db/je/index.html
 
 Requirements
 ============
