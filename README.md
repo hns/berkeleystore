@@ -30,7 +30,7 @@ Initializing the store:
 
 Creating a new Storable class:
 
-    Book = store.defineClass('book');
+    Book = store.defineEntity('book');
 
 Creating and saving a new Storable instance:
 

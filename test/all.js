@@ -5,7 +5,7 @@ var dbPath = require('fs').join(module.directory, 'db');
 var {Store} = require('ringo/storage/berkeleystore');
 var store = new Store(dbPath);
 var personId, person;
-var Person = store.defineClass('Person');
+var Person = store.defineEntity('Person');
 const FIRST_NAME_1 = 'Hans';
 const FIRST_NAME_2 = 'Herbert';
 const LAST_NAME = 'Wurst';
